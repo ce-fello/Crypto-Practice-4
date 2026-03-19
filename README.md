@@ -75,16 +75,6 @@ Run all tests with:
 go test ./...
 ```
 
-## Report Generation
-
-Generate the final `.docx` report based on the template from the repository root:
-
-```bash
-.venv/bin/python scripts/generate_report.py
-```
-
-The script creates `report.docx`, validates the resulting ZIP/OOXML structure, and checks that macOS `textutil` can read the generated file without errors.
-
 ## Limitations
 
 This project is intentionally educational.
